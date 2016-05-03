@@ -1,0 +1,23 @@
+{
+  "name": "Untappd Toast Bot",
+  "description": "A Heroku bot that toasts Untappd checkins.",
+  "repository": "https://github.com/scott113341/untappd-toast-bot",
+  "env": {
+    "UNTAPPD_CLIENT_ID": {
+      "description": "Your Untappd API application's Client ID."
+    },
+    "UNTAPPD_CLIENT_SECRET": {
+      "description": "Your Untappd API application's Client Secret."
+    },
+    "UNTAPPD_ACCESS_TOKEN": {
+      "description": "Your Untappd user's OAuth access token."
+    },
+    "TOAST_THRESHOLD": {
+      "description": "The minimum rating to receive a toast.",
+      "value": "4.25"
+    }
+  },
+  "addons": [
+    "scheduler:standard"
+  ]
+}
