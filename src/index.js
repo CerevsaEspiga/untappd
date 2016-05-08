@@ -63,7 +63,6 @@ function toastCheckin(checkinId) {
       method: 'POST',
       qs: AUTH,
     };
-    return resolve(req);
     request(req, (err, res, body) => {
       if (err) return reject(err);
       resolve(JSON.parse(body));
