@@ -13,7 +13,7 @@
     "npm": "3.8.6"
   },
   "scripts": {
-    "toast": "node src/index.js"
+    "toast": "node index.js"
   },
   "dependencies": {
     "dotenv": "2.0.0",
