@@ -20,7 +20,12 @@
       "description": "Your Untappd user's OAuth access token."
     }
   },
-  "formation": {},
+  "formation": {
+    "web": {
+      "quantity": 0,
+      "size": "free"
+    }
+  },
   "addons": [
     "scheduler:standard"
   ]
