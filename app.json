@@ -8,7 +8,7 @@
       "value": "4.25"
     },
     "UNTAPPD_BREWERY_ID": {
-      "description": "Your Untappd API application's Client ID."
+      "description": "Your Untappd Brewery ID."
     },
     "UNTAPPD_CLIENT_ID": {
       "description": "Your Untappd API application's Client ID."

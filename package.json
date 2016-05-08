@@ -8,6 +8,10 @@
   "homepage": "https://github.com/scott113341/untappd-toast-bot",
   "bugs": "https://github.com/scott113341/untappd-toast-bot/issues",
   "private": true,
+  "engines": {
+    "node": "6.0.0",
+    "npm": "3.8.6"
+  },
   "scripts": {
     "start": "node src/index.js"
   },
