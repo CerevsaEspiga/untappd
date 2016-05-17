@@ -52,7 +52,8 @@ function getCheckins() {
 function filterCheckins(checkin) {
   return (
     checkin.rating_score >= TOAST_THRESHOLD &&
-    !checkin.toasts.items.find(t => t.like_owner)
+    !checkin.toasts.items.find(t => t.like_owner) &&
+    checkin.user.relationship === 'follow' // maybe?
   );
 }
 
